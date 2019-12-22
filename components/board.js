@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { View } from 'react-native';
+import styles from './styles/globalStyles';
 import Cell from './cell';
 
 export default function board(){
@@ -23,17 +24,3 @@ export default function board(){
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    board:{
-        height: 300,
-        width: 300,
-        backgroundColor: "#fff",
-        alignSelf: "center",
-        borderWidth: 2,
-    },
-    row:{
-        flex: 1,
-        flexDirection: "row",
-    },
-})

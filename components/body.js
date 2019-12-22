@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import styles from './styles/globalStyles';
 import Board from './board';
 import MyButton from './button';
 
@@ -15,22 +16,3 @@ export default function body(){
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    body:{
-        flex:1,
-        backgroundColor:"#eff",
-        alignContent:"center",
-        justifyContent:"center",
-    },
-    info:{
-        textAlign: "center",
-        fontSize: 16,
-        margin: 40,
-    },
-    buttons:{
-        margin: 50,
-        flexDirection: "row",
-        justifyContent: "space-around"
-    }
-})

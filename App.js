@@ -1,7 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Header from './components/header'
-import Body from './components/body'
+import { Text, View } from 'react-native';
+import styles from './styles/globalStyles';
+import Header from './components/header';
+import Body from './components/body';
 
 export default function App() {
   return (
@@ -12,14 +13,3 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#039dfc',
-    alignContent:"center",
-    justifyContent:"center",
-  },
-  text:{
-    fontSize:20,
-  }
-});

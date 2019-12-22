@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
+import styles from './styles/globalStyles';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function button(props){
@@ -13,17 +14,3 @@ export default function button(props){
     )
 }
 
-const styles = StyleSheet.create({
-    button:{
-        flexDirection: "row",
-        alignContent: "center",
-        justifyContent: "space-around",
-        backgroundColor: "#0394fc",
-        padding: 15,
-        borderRadius: 5,
-    },
-    buttonText:{
-        fontSize: 15,
-        marginLeft: 5,
-    }
-})

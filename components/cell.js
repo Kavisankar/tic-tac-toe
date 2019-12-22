@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
+import styles from './styles/globalStyles';
 
 export default function cell(props){
     return (
@@ -10,16 +11,3 @@ export default function cell(props){
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    cellContent:{
-        fontSize: 50,
-    },
-    cell:{
-        flex: 1,
-        borderWidth: 2,
-        alignItems: "center",
-        alignContent:"center",
-        justifyContent:"center",
-    }
-})
