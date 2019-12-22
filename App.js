@@ -6,7 +6,7 @@ import Body from './components/body';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style={styles.appContainer}>
       <Header></Header>
       <Body></Body>
     </View>

@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    container: {
+    appContainer: {
       flex: 1,
       backgroundColor: '#039dfc',
       alignContent:"center",
@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     text:{
       fontSize:20,
     },
-    header:{
+    headerContainer:{
         padding: 15,
         marginTop: 23,
         alignContent: "center",
@@ -20,18 +20,18 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 18,
     },
-    body:{
+    bodyContainer:{
         flex:1,
         backgroundColor:"#eff",
         alignContent:"center",
         justifyContent:"center",
     },
-    info:{
+    playerInfo:{
         textAlign: "center",
         fontSize: 16,
         margin: 40,
     },
-    buttons:{
+    buttonContainer:{
         margin: 50,
         flexDirection: "row",
         justifyContent: "space-around"
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         alignSelf: "center",
         borderWidth: 2,
     },
-    row:{
+    boardRow:{
         flex: 1,
         flexDirection: "row",
     },

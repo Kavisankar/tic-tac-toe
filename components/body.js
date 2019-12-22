@@ -6,10 +6,10 @@ import MyButton from './button';
 
 export default function body(){
     return (
-        <View style={styles.body}>
-            <Text style={styles.info}>Player X's Turn</Text>
+        <View style={styles.bodyContainer}>
+            <Text style={styles.playerInfo}>Player X's Turn</Text>
             <Board></Board>
-            <View style={styles.buttons}>
+            <View style={styles.buttonContainer}>
                 <MyButton icon="ios-undo">Undo</MyButton>
                 <MyButton icon="ios-redo">Redo</MyButton>
             </View>
