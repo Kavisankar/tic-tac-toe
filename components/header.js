@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from './styles/globalStyles';
+import styles from './../styles/globalStyles';
 
 export default function header(){
     return (

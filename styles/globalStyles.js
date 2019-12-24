@@ -32,14 +32,14 @@ const styles = StyleSheet.create({
         margin: 40,
     },
     buttonContainer:{
-        margin: 50,
+        marginTop: 50,
         flexDirection: "row",
-        justifyContent: "space-around"
+        justifyContent: "space-evenly",
     },
     button:{
         flexDirection: "row",
         alignContent: "center",
-        justifyContent: "space-around",
+        justifyContent: "center",
         backgroundColor: "#0394fc",
         padding: 15,
         borderRadius: 5,
@@ -59,13 +59,16 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: "row",
     },
-    cellContent:{
+    cellText:{
         fontSize: 50,
+    },
+    cellContent:{
+        alignItems:"center",
     },
     cell:{
         flex: 1,
         borderWidth: 2,
-        alignItems: "center",
+        alignItems: "stretch",
         alignContent:"center",
         justifyContent:"center",
     }
