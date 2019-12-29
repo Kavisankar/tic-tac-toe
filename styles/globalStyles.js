@@ -49,15 +49,13 @@ const styles = StyleSheet.create({
         marginLeft: 5,
     },
     board:{
-        height: 300,
-        width: 300,
+        flexDirection: "row",
+        flexWrap: "wrap",
+        height: 304,
+        width: 304,
         backgroundColor: "#fff",
         alignSelf: "center",
         borderWidth: 2,
-    },
-    boardRow:{
-        flex: 1,
-        flexDirection: "row",
     },
     cellText:{
         fontSize: 50,
@@ -66,7 +64,7 @@ const styles = StyleSheet.create({
         alignItems:"center",
     },
     cell:{
-        flex: 1,
+        width: 100,
         borderWidth: 2,
         alignItems: "stretch",
         alignContent:"center",
