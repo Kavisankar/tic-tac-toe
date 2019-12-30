@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     },
     cell:{
         width: 100,
+        height: 100,
         borderWidth: 2,
         alignItems: "stretch",
         alignContent:"center",
